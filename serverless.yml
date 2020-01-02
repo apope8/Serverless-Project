@@ -34,4 +34,4 @@ resources:
     DemoBucketUpload:
       Type: AWS::S3::Bucket
       Properties:
-        BucketName: apopeServerlessProjectUploadBucket-56789
+        BucketName: apopeserverlessprojectuploadbucket-56789
