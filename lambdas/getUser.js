@@ -2,6 +2,17 @@
 exports.handler = async event => {
     console.log('event', event)
 
+    if(!event.pathParameters || !event.pathParameters.ID){
+        // failed without Id
+
+        let ID = event.pathParameters.ID;
+
+        if(data[ID]){
+            // return the data
+        }
+
+        // failed as id not in the data
+    }
 
 }
 
